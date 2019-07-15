@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="wrap_content"
+android:orientation="vertical"
+android:id="@+id/userAnalayout"
+android:clickable="true"
+android:layout_height="wrap_content">
+
+
+<ImageView
+    android:layout_width="100dp"
+    android:layout_marginTop="10dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="25dp"
+    android:background="@drawable/user" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="İsim"
+    android:layout_marginBottom="10dp"
+    android:textStyle="bold"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center"
+    android:id="@+id/userNameChat" />
+
+
+</LinearLayout>
+
